@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
             txt_Desc.Text = "";
             txt_price.Text = "";
             txt_qty.Text = "";
-            txt_supNo.Text = "";
+            combo_sup.Text = "";
             combo_type.Text = "";
         }
 
@@ -37,19 +37,65 @@ namespace WindowsFormsApp1
         {
 
         }
-
+          
         private void btn_add_Click(object sender, EventArgs e)
         {
-            con = new sqlDBConnection();
-            con.SqlQuery("INSERT INTO furniture(fur_No, Descr, price, type, qty, sup_No)VALUES (@a, @b,@c,@d,@e,@f) ");
-            con.cmd.Parameters.Add("@a", txt_FurNo.Text.Trim());
-            con.cmd.Parameters.Add("@b", txt_Desc.Text.Trim());
-            con.cmd.Parameters.Add("@c", txt_price.Text.Trim());
-            con.cmd.Parameters.Add("@d", combo_type.Text.Trim());
-            con.cmd.Parameters.Add("@e", txt_qty.Text.Trim());
-            con.cmd.Parameters.Add("@f", txt_supNo.Text.Trim());
-            con.nonQueryEx();
-            MessageBox.Show("Deposit Update Successfully");
+            try
+            {
+                if (String.IsNullOrEmpty(txt_Desc.Text))
+                    MessageBox.Show("Please Enter Product Description", "New Product", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                else if (String.IsNullOrEmpty(txt_price.Text))
+                    MessageBox.Show("Please enter Price of Product", "New Product", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                else if (txt_price.Text.Any(char.IsLetter))
+                    MessageBox.Show("Please check some characters are entered in Price", "New Product", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                else if (String.IsNullOrEmpty(combo_type.Text))
+                    MessageBox.Show("Please Select Type of Product", "New Product", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                else if (String.IsNullOrEmpty(txt_qty.Text))
+                    MessageBox.Show("Please Enter Quantity", "New Product", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                else if (txt_qty.Text.Any(char.IsLetter))
+                    MessageBox.Show("Please check some characters are entered in Quantity", "New Product", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                else if (String.IsNullOrEmpty(combo_sup.Text))
+                    MessageBox.Show("Please Select Product Supplier", "New Product", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+
+                else
+                {
+                    DialogResult dr = MessageBox.Show("Do you want to Continue ?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                    if (dr.ToString() == "Yes")
+                    {
+                        con = new sqlDBConnection();
+                        con.SqlQuery("INSERT INTO furniture(fur_No, Descr, price, type, qty, sup_No)VALUES (@a, @b,@c,@d,@e,@f)");
+                        con.cmd.Parameters.AddWithValue("@a", txt_FurNo.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@b", txt_Desc.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@c", txt_price.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@d", combo_type.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@e", txt_qty.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@f", combo_sup.Text.Trim());
+                        con.nonQueryEx();
+                        MessageBox.Show("Data inserted Successfully", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                         txt_FurNo.Text = "";
+                         txt_Desc.Text = "";
+                         txt_price.Text = "";
+                         txt_qty.Text = "";
+                         combo_sup.Text = "";
+                         combo_type.Text = "";
+                }
+               
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
 
         }
     }

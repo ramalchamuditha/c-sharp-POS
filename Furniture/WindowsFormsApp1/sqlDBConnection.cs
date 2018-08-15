@@ -23,7 +23,7 @@ namespace WindowsFormsApp1
 
         public void SqlQuery(string qText)
         {
-            cmd = new SqlCommand(qText);
+            cmd = new SqlCommand(qText,con);
         }
 
         public DataTable QueryEx()

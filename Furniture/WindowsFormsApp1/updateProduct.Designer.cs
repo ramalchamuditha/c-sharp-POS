@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(updateProduct));
             this.combo_type = new System.Windows.Forms.ComboBox();
             this.txt_supNo = new System.Windows.Forms.TextBox();
@@ -44,6 +45,23 @@
             this.btn_update = new System.Windows.Forms.Button();
             this.btn_clear = new System.Windows.Forms.Button();
             this.btn_back = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.productsDataSet = new WindowsFormsApp1.ProductsDataSet();
+            this.productsDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.productsDataSet1 = new WindowsFormsApp1.ProductsDataSet1();
+            this.furnitureBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.furnitureTableAdapter = new WindowsFormsApp1.ProductsDataSet1TableAdapters.furnitureTableAdapter();
+            this.furNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descrDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.priceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.typeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.qtyDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.supNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productsDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productsDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productsDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.furnitureBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // combo_type
@@ -193,11 +211,91 @@
             this.btn_back.UseVisualStyleBackColor = true;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.furNoDataGridViewTextBoxColumn,
+            this.descrDataGridViewTextBoxColumn,
+            this.priceDataGridViewTextBoxColumn,
+            this.typeDataGridViewTextBoxColumn,
+            this.qtyDataGridViewTextBoxColumn,
+            this.supNoDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.furnitureBindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(539, 43);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(643, 588);
+            this.dataGridView1.TabIndex = 21;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // productsDataSet
+            // 
+            this.productsDataSet.DataSetName = "ProductsDataSet";
+            this.productsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // productsDataSetBindingSource
+            // 
+            this.productsDataSetBindingSource.DataSource = this.productsDataSet;
+            this.productsDataSetBindingSource.Position = 0;
+            // 
+            // productsDataSet1
+            // 
+            this.productsDataSet1.DataSetName = "ProductsDataSet1";
+            this.productsDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // furnitureBindingSource
+            // 
+            this.furnitureBindingSource.DataMember = "furniture";
+            this.furnitureBindingSource.DataSource = this.productsDataSet1;
+            // 
+            // furnitureTableAdapter
+            // 
+            this.furnitureTableAdapter.ClearBeforeFill = true;
+            // 
+            // furNoDataGridViewTextBoxColumn
+            // 
+            this.furNoDataGridViewTextBoxColumn.DataPropertyName = "fur_No";
+            this.furNoDataGridViewTextBoxColumn.HeaderText = "fur_No";
+            this.furNoDataGridViewTextBoxColumn.Name = "furNoDataGridViewTextBoxColumn";
+            // 
+            // descrDataGridViewTextBoxColumn
+            // 
+            this.descrDataGridViewTextBoxColumn.DataPropertyName = "Descr";
+            this.descrDataGridViewTextBoxColumn.HeaderText = "Descr";
+            this.descrDataGridViewTextBoxColumn.Name = "descrDataGridViewTextBoxColumn";
+            // 
+            // priceDataGridViewTextBoxColumn
+            // 
+            this.priceDataGridViewTextBoxColumn.DataPropertyName = "price";
+            this.priceDataGridViewTextBoxColumn.HeaderText = "price";
+            this.priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
+            // 
+            // typeDataGridViewTextBoxColumn
+            // 
+            this.typeDataGridViewTextBoxColumn.DataPropertyName = "type";
+            this.typeDataGridViewTextBoxColumn.HeaderText = "type";
+            this.typeDataGridViewTextBoxColumn.Name = "typeDataGridViewTextBoxColumn";
+            // 
+            // qtyDataGridViewTextBoxColumn
+            // 
+            this.qtyDataGridViewTextBoxColumn.DataPropertyName = "qty";
+            this.qtyDataGridViewTextBoxColumn.HeaderText = "qty";
+            this.qtyDataGridViewTextBoxColumn.Name = "qtyDataGridViewTextBoxColumn";
+            // 
+            // supNoDataGridViewTextBoxColumn
+            // 
+            this.supNoDataGridViewTextBoxColumn.DataPropertyName = "sup_No";
+            this.supNoDataGridViewTextBoxColumn.HeaderText = "sup_No";
+            this.supNoDataGridViewTextBoxColumn.Name = "supNoDataGridViewTextBoxColumn";
+            // 
             // updateProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1218, 677);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.btn_update);
@@ -218,6 +316,11 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Show Product";
             this.Load += new System.EventHandler(this.updateProduct_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productsDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productsDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productsDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.furnitureBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -240,5 +343,17 @@
         private System.Windows.Forms.Button btn_update;
         private System.Windows.Forms.Button btn_clear;
         private System.Windows.Forms.Button btn_back;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private ProductsDataSet productsDataSet;
+        private System.Windows.Forms.BindingSource productsDataSetBindingSource;
+        private ProductsDataSet1 productsDataSet1;
+        private System.Windows.Forms.BindingSource furnitureBindingSource;
+        private ProductsDataSet1TableAdapters.furnitureTableAdapter furnitureTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn furNoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn descrDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn priceDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn typeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn qtyDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn supNoDataGridViewTextBoxColumn;
     }
 }

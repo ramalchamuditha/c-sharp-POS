@@ -19,6 +19,8 @@ namespace WindowsFormsApp1
 
         private void updateProduct_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'productsDataSet1.furniture' table. You can move, or remove it, as needed.
+            this.furnitureTableAdapter.Fill(this.productsDataSet1.furniture);
 
         }
 
@@ -35,6 +37,16 @@ namespace WindowsFormsApp1
         private void btn_back_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txt_FurNo.Text = dataGridView1.CurrentRow.Cells["fur_No"].Value.ToString();
+            combo_type.Text = dataGridView1.CurrentRow.Cells["type"].Value.ToString();
+            txt_Desc.Text = dataGridView1.CurrentRow.Cells["Descr"].Value.ToString();
+            txt_price.Text = dataGridView1.CurrentRow.Cells["price"].Value.ToString();
+            txt_qty.Text = dataGridView1.CurrentRow.Cells["qty"].Value.ToString();
+            txt_supNo.Text = dataGridView1.CurrentRow.Cells["sup_No"].Value.ToString();
         }
     }
 }

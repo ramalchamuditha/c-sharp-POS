@@ -39,11 +39,11 @@
             this.txt_Desc = new System.Windows.Forms.TextBox();
             this.txt_price = new System.Windows.Forms.TextBox();
             this.txt_qty = new System.Windows.Forms.TextBox();
-            this.txt_supNo = new System.Windows.Forms.TextBox();
             this.combo_type = new System.Windows.Forms.ComboBox();
             this.btn_add = new System.Windows.Forms.Button();
             this.btn_reset = new System.Windows.Forms.Button();
             this.btn_exit = new System.Windows.Forms.Button();
+            this.combo_sup = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -108,6 +108,7 @@
             // 
             // txt_FurNo
             // 
+            this.txt_FurNo.Enabled = false;
             this.txt_FurNo.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_FurNo.Location = new System.Drawing.Point(408, 80);
             this.txt_FurNo.Multiline = true;
@@ -142,20 +143,16 @@
             this.txt_qty.Size = new System.Drawing.Size(218, 42);
             this.txt_qty.TabIndex = 6;
             // 
-            // txt_supNo
-            // 
-            this.txt_supNo.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_supNo.Location = new System.Drawing.Point(408, 484);
-            this.txt_supNo.Multiline = true;
-            this.txt_supNo.Name = "txt_supNo";
-            this.txt_supNo.Size = new System.Drawing.Size(218, 42);
-            this.txt_supNo.TabIndex = 6;
-            // 
             // combo_type
             // 
-            this.combo_type.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.combo_type.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo_type.FormattingEnabled = true;
+            this.combo_type.Items.AddRange(new object[] {
+            "Chairs",
+            "Tables",
+            "Beds",
+            "Wardrobe",
+            "Cupboard"});
             this.combo_type.Location = new System.Drawing.Point(408, 320);
             this.combo_type.Name = "combo_type";
             this.combo_type.Size = new System.Drawing.Size(218, 34);
@@ -194,16 +191,25 @@
             this.btn_exit.UseVisualStyleBackColor = true;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
+            // combo_sup
+            // 
+            this.combo_sup.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.combo_sup.FormattingEnabled = true;
+            this.combo_sup.Location = new System.Drawing.Point(408, 490);
+            this.combo_sup.Name = "combo_sup";
+            this.combo_sup.Size = new System.Drawing.Size(218, 30);
+            this.combo_sup.TabIndex = 9;
+            // 
             // addProducts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(939, 703);
+            this.Controls.Add(this.combo_sup);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.btn_add);
             this.Controls.Add(this.combo_type);
-            this.Controls.Add(this.txt_supNo);
             this.Controls.Add(this.txt_qty);
             this.Controls.Add(this.txt_price);
             this.Controls.Add(this.txt_Desc);
@@ -236,10 +242,10 @@
         private System.Windows.Forms.TextBox txt_Desc;
         private System.Windows.Forms.TextBox txt_price;
         private System.Windows.Forms.TextBox txt_qty;
-        private System.Windows.Forms.TextBox txt_supNo;
         private System.Windows.Forms.ComboBox combo_type;
         private System.Windows.Forms.Button btn_add;
         private System.Windows.Forms.Button btn_reset;
         private System.Windows.Forms.Button btn_exit;
+        private System.Windows.Forms.ComboBox combo_sup;
     }
 }

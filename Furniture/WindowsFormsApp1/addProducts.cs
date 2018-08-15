@@ -41,15 +41,15 @@ namespace WindowsFormsApp1
         private void btn_add_Click(object sender, EventArgs e)
         {
             con = new sqlDBConnection();
-            con.SqlQuery("INSERT INTO furniture(fur_No, Descr, price, type, qty, sup_No)VALUES (@a, @b,@c,@d,@e,@f) ");
-            con.cmd.Parameters.Add("@a", txt_FurNo.Text.Trim());
-            con.cmd.Parameters.Add("@b", txt_Desc.Text.Trim());
-            con.cmd.Parameters.Add("@c", txt_price.Text.Trim());
-            con.cmd.Parameters.Add("@d", combo_type.Text.Trim());
-            con.cmd.Parameters.Add("@e", txt_qty.Text.Trim());
-            con.cmd.Parameters.Add("@f", txt_supNo.Text.Trim());
-            con.nonQueryEx();
-            MessageBox.Show("Deposit Update Successfully");
+            con.SqlQuery("INSERT INTO furniture(fur_No, Descr, price, type, qty, sup_No)VALUES (@a, @b,@c,@d,@e,@f)");
+            con.cmd.Parameters.AddWithValue("@a", txt_FurNo.Text.Trim());
+            con.cmd.Parameters.AddWithValue("@b", txt_Desc.Text.Trim());
+            con.cmd.Parameters.AddWithValue("@c", txt_price.Text.Trim());
+            con.cmd.Parameters.AddWithValue("@d", combo_type.Text.Trim());
+            con.cmd.Parameters.AddWithValue("@e", txt_qty.Text.Trim());
+            con.cmd.Parameters.AddWithValue("@f", txt_supNo.Text.Trim());
+            con.NonQueryEx();
+            MessageBox.Show("Product is Successfully updated");
 
         }
     }

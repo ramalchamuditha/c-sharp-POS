@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Data;
 
@@ -17,7 +13,7 @@ namespace WindowsFormsApp1
 
         public sqlDBConnection()
         {
-            con = new SqlConnection(@"Data Source=DESKTOP-U2CIFPM;Initial Catalog=Products;Integrated Security=True");
+            con = new SqlConnection(@"Data Source=DESKTOP-79N0E5I\SQLEXPRESS;Initial Catalog=Products;Integrated Security=True");
             con.Open();
         }
 
@@ -33,7 +29,7 @@ namespace WindowsFormsApp1
             da.Fill(dt);
             return dt;
         }
-        public void nonQueryEx()
+        public void NonQueryEx()
         {
             cmd.ExecuteNonQuery();
         }

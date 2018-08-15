@@ -1,0 +1,117 @@
+C:\Users\Ramal\Documents\DCSD\Final Project\project\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Ramal\Documents\DCSD\Final Project\project\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Ramal\Documents\DCSD\Final Project\project\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Ramal\Documents\DCSD\Final Project\project\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Ramal\Documents\DCSD\Final Project\project\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Ramal\Documents\DCSD\Final Project\project\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Ramal\Documents\DCSD\Final Project\project\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Ramal\Documents\DCSD\Final Project\project\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Ramal\Documents\DCSD\Final Project\project\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Ramal\Documents\DCSD\Final Project\project\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HomePage.resources
+C:\Users\Ramal\Documents\DCSD\Final Project\project\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LoginPage.resources
+H:\DCSD\Final Project\Project setup\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+H:\DCSD\Final Project\Project setup\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+H:\DCSD\Final Project\Project setup\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+H:\DCSD\Final Project\Project setup\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+H:\DCSD\Final Project\Project setup\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HomePage.resources
+H:\DCSD\Final Project\Project setup\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LoginPage.resources
+H:\DCSD\Final Project\Project setup\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.products.resources
+H:\DCSD\Final Project\Project setup\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+H:\DCSD\Final Project\Project setup\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+H:\DCSD\Final Project\Project setup\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+H:\DCSD\Final Project\Project setup\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+H:\DCSD\Final Project\Project setup\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HomePage.resources
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LoginPage.resources
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.products.resources
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.supplier.resources
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.payment.resources
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.reports.resources
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.forgetPW.resources
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.addProducts.resources
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.updateProduct.resources
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.deleteProduct.resources
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.addSupplier.resources
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.updateSupplier.resources
+<<<<<<< HEAD
+C:\Users\Ramal\Desktop\GitHub - Project\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.deleteSupplier.resources
+=======
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.addProducts.resources
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.addSupplier.resources
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.deleteProduct.resources
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.forgetPW.resources
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.payment.resources
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.reports.resources
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.supplier.resources
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HomePage.resources
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LoginPage.resources
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.products.resources
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.updateProduct.resources
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.updateSupplier.resources
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+>>>>>>> 882057a11546292cd7e7286898b24f5f7d5cb3d1
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.deleteSupplier.resources
+C:\Users\Sadu\Documents\GitHub\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Home.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.addProducts.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.addSupplier.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.deleteProduct.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.deleteSupplier.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.forgetPW.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Home.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.payment.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.reports.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.supplier.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HomePage.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LoginPage.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.products.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.updateProduct.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.updateSupplier.resources
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Ramal\Desktop\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.addProducts.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.addSupplier.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.deleteProduct.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.deleteSupplier.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.forgetPW.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Home.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.makePayment.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.payment.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.reports.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.supplier.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HomePage.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LoginPage.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.products.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.updateProduct.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.updateSupplier.resources
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Ramal\Desktop\GitHub - Project\new created\LastfinalProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

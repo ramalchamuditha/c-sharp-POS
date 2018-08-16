@@ -48,6 +48,8 @@
             this.btn_back = new System.Windows.Forms.Button();
             this.btn_clear = new System.Windows.Forms.Button();
             this.btn_update = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // txt_Lname
@@ -234,11 +236,21 @@
             this.btn_update.UseVisualStyleBackColor = true;
             this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(571, 36);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(719, 608);
+            this.dataGridView1.TabIndex = 35;
+            // 
             // updateSupplier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1315, 692);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.btn_update);
@@ -262,6 +274,7 @@
             this.Name = "updateSupplier";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Show Supplier";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -288,5 +301,6 @@
         private System.Windows.Forms.Button btn_back;
         private System.Windows.Forms.Button btn_clear;
         private System.Windows.Forms.Button btn_update;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

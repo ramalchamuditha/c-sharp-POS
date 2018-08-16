@@ -37,7 +37,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txt_payID = new System.Windows.Forms.TextBox();
             this.txt_amount = new System.Windows.Forms.TextBox();
-            this.txt_balance = new System.Windows.Forms.TextBox();
+            this.txt_SalesOrderNo = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.btn_exit = new System.Windows.Forms.Button();
             this.btn_reset = new System.Windows.Forms.Button();
@@ -58,7 +58,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(79, 268);
+            this.label3.Location = new System.Drawing.Point(79, 270);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(186, 25);
             this.label3.TabIndex = 2;
@@ -70,15 +70,15 @@
             this.label4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(79, 334);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 25);
+            this.label4.Size = new System.Drawing.Size(211, 25);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Balance";
+            this.label4.Text = "Sales OrderNumber";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(79, 213);
+            this.label5.Location = new System.Drawing.Point(79, 206);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(172, 25);
             this.label5.TabIndex = 4;
@@ -111,24 +111,24 @@
             // txt_amount
             // 
             this.txt_amount.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_amount.Location = new System.Drawing.Point(337, 268);
+            this.txt_amount.Location = new System.Drawing.Point(337, 270);
             this.txt_amount.Name = "txt_amount";
             this.txt_amount.Size = new System.Drawing.Size(195, 28);
             this.txt_amount.TabIndex = 8;
             // 
-            // txt_balance
+            // txt_SalesOrderNo
             // 
-            this.txt_balance.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_balance.Location = new System.Drawing.Point(337, 334);
-            this.txt_balance.Name = "txt_balance";
-            this.txt_balance.Size = new System.Drawing.Size(195, 28);
-            this.txt_balance.TabIndex = 9;
+            this.txt_SalesOrderNo.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_SalesOrderNo.Location = new System.Drawing.Point(337, 333);
+            this.txt_SalesOrderNo.Name = "txt_SalesOrderNo";
+            this.txt_SalesOrderNo.Size = new System.Drawing.Size(195, 28);
+            this.txt_SalesOrderNo.TabIndex = 9;
             // 
             // comboBox1
             // 
             this.comboBox1.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(337, 213);
+            this.comboBox1.Location = new System.Drawing.Point(337, 205);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(195, 30);
             this.comboBox1.TabIndex = 10;
@@ -174,7 +174,7 @@
             this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.btn_pay);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.txt_balance);
+            this.Controls.Add(this.txt_SalesOrderNo);
             this.Controls.Add(this.txt_amount);
             this.Controls.Add(this.txt_payID);
             this.Controls.Add(this.label6);
@@ -203,7 +203,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txt_payID;
         private System.Windows.Forms.TextBox txt_amount;
-        private System.Windows.Forms.TextBox txt_balance;
+        private System.Windows.Forms.TextBox txt_SalesOrderNo;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button btn_exit;
         private System.Windows.Forms.Button btn_reset;

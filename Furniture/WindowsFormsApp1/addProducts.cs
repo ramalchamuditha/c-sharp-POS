@@ -33,7 +33,7 @@ namespace WindowsFormsApp1
             combo_type.Text = "";
 
             con = new sqlDBConnection();
-            con.SqlQuery("Select isnull(max(cast(fur_No as int)),0 )+1 from furniture");
+            con.SqlQuery("Select isnull(max,0 )+1 from furniture");
 
             txt_FurNo.Text = con.QueryEx().Rows[0][0].ToString();
         }
@@ -86,18 +86,18 @@ namespace WindowsFormsApp1
                         con.cmd.Parameters.AddWithValue("@e", txt_qty.Text.Trim());
                         con.cmd.Parameters.AddWithValue("@f", combo_sup.Text.Trim());
                         con.NonQueryEx();
-<<<<<<< HEAD
+
                         MessageBox.Show("Data inserted Successfully", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                         con = new sqlDBConnection();
                         con.SqlQuery("Select isnull(max(cast(fur_No as int)),0 )+1 from furniture");
 
                         txt_FurNo.Text = con.QueryEx().Rows[0][0].ToString();
-=======
+
                        
                             MessageBox.Show("Data Added Successfully", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         
->>>>>>> c49de22100a29dc9f93468d7ceb72ecf1ca5c7b2
+
                     }
                     else
                          txt_FurNo.Text = "";

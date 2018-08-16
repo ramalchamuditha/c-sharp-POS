@@ -50,10 +50,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(64, 65);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(85, 80);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 18);
+            this.label1.Size = new System.Drawing.Size(194, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Furniture Number";
             // 
@@ -61,10 +60,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(64, 262);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(85, 322);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 18);
+            this.label2.Size = new System.Drawing.Size(58, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Type";
             // 
@@ -72,10 +70,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(64, 131);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(85, 161);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 18);
+            this.label3.Size = new System.Drawing.Size(125, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Description";
             // 
@@ -83,10 +80,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(64, 197);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(85, 242);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 18);
+            this.label4.Size = new System.Drawing.Size(61, 25);
             this.label4.TabIndex = 3;
             this.label4.Text = "Price";
             // 
@@ -94,10 +90,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(64, 328);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(85, 404);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 18);
+            this.label5.Size = new System.Drawing.Size(100, 25);
             this.label5.TabIndex = 4;
             this.label5.Text = "Quantity";
             // 
@@ -105,68 +100,53 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(64, 394);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(85, 485);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(143, 18);
+            this.label6.Size = new System.Drawing.Size(183, 25);
             this.label6.TabIndex = 5;
             this.label6.Text = "Supplier Number";
             // 
             // txt_FurNo
             // 
+            this.txt_FurNo.Enabled = false;
             this.txt_FurNo.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_FurNo.Location = new System.Drawing.Point(306, 65);
-            this.txt_FurNo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_FurNo.Location = new System.Drawing.Point(408, 80);
+            this.txt_FurNo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_FurNo.Multiline = true;
             this.txt_FurNo.Name = "txt_FurNo";
-            this.txt_FurNo.ReadOnly = true;
-            this.txt_FurNo.Size = new System.Drawing.Size(164, 35);
+            this.txt_FurNo.Size = new System.Drawing.Size(217, 42);
             this.txt_FurNo.TabIndex = 5;
+            this.txt_FurNo.Tag = "";
             // 
             // txt_Desc
             // 
             this.txt_Desc.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Desc.Location = new System.Drawing.Point(306, 130);
-            this.txt_Desc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_Desc.Location = new System.Drawing.Point(408, 160);
+            this.txt_Desc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_Desc.Multiline = true;
             this.txt_Desc.Name = "txt_Desc";
-<<<<<<< HEAD
-            this.txt_Desc.Size = new System.Drawing.Size(164, 35);
-            this.txt_Desc.TabIndex = 6;
-=======
-            this.txt_Desc.Size = new System.Drawing.Size(218, 42);
+            this.txt_Desc.Size = new System.Drawing.Size(289, 51);
             this.txt_Desc.TabIndex = 1;
->>>>>>> c49de22100a29dc9f93468d7ceb72ecf1ca5c7b2
             // 
             // txt_price
             // 
             this.txt_price.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_price.Location = new System.Drawing.Point(306, 196);
-            this.txt_price.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_price.Location = new System.Drawing.Point(408, 241);
+            this.txt_price.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_price.Multiline = true;
             this.txt_price.Name = "txt_price";
-<<<<<<< HEAD
-            this.txt_price.Size = new System.Drawing.Size(164, 35);
-            this.txt_price.TabIndex = 6;
-=======
-            this.txt_price.Size = new System.Drawing.Size(218, 42);
+            this.txt_price.Size = new System.Drawing.Size(289, 51);
             this.txt_price.TabIndex = 2;
->>>>>>> c49de22100a29dc9f93468d7ceb72ecf1ca5c7b2
             // 
             // txt_qty
             // 
             this.txt_qty.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_qty.Location = new System.Drawing.Point(306, 327);
-            this.txt_qty.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_qty.Location = new System.Drawing.Point(408, 402);
+            this.txt_qty.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_qty.Multiline = true;
             this.txt_qty.Name = "txt_qty";
-<<<<<<< HEAD
-            this.txt_qty.Size = new System.Drawing.Size(164, 35);
-            this.txt_qty.TabIndex = 6;
-=======
-            this.txt_qty.Size = new System.Drawing.Size(218, 42);
+            this.txt_qty.Size = new System.Drawing.Size(289, 51);
             this.txt_qty.TabIndex = 4;
->>>>>>> c49de22100a29dc9f93468d7ceb72ecf1ca5c7b2
             // 
             // combo_type
             // 
@@ -177,29 +157,21 @@
             "Tables",
             "Beds",
             "Wardrobe",
-<<<<<<< HEAD
-            "Cupboard"});
-            this.combo_type.Location = new System.Drawing.Point(306, 260);
-            this.combo_type.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.combo_type.Name = "combo_type";
-            this.combo_type.Size = new System.Drawing.Size(164, 28);
-            this.combo_type.TabIndex = 7;
-=======
             "Cupboard",
-            "Other"});
+            "Others"});
             this.combo_type.Location = new System.Drawing.Point(408, 320);
+            this.combo_type.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.combo_type.Name = "combo_type";
-            this.combo_type.Size = new System.Drawing.Size(218, 34);
-            this.combo_type.TabIndex = 3;
->>>>>>> c49de22100a29dc9f93468d7ceb72ecf1ca5c7b2
+            this.combo_type.Size = new System.Drawing.Size(217, 34);
+            this.combo_type.TabIndex = 7;
             // 
             // btn_add
             // 
             this.btn_add.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_add.Location = new System.Drawing.Point(306, 501);
-            this.btn_add.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_add.Location = new System.Drawing.Point(408, 617);
+            this.btn_add.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_add.Name = "btn_add";
-            this.btn_add.Size = new System.Drawing.Size(91, 34);
+            this.btn_add.Size = new System.Drawing.Size(121, 42);
             this.btn_add.TabIndex = 8;
             this.btn_add.Text = "Insert";
             this.btn_add.UseVisualStyleBackColor = true;
@@ -208,10 +180,10 @@
             // btn_reset
             // 
             this.btn_reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_reset.Location = new System.Drawing.Point(446, 501);
-            this.btn_reset.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_reset.Location = new System.Drawing.Point(595, 617);
+            this.btn_reset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_reset.Name = "btn_reset";
-            this.btn_reset.Size = new System.Drawing.Size(91, 34);
+            this.btn_reset.Size = new System.Drawing.Size(121, 42);
             this.btn_reset.TabIndex = 8;
             this.btn_reset.Text = "Clear";
             this.btn_reset.UseVisualStyleBackColor = true;
@@ -220,10 +192,10 @@
             // btn_exit
             // 
             this.btn_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_exit.Location = new System.Drawing.Point(585, 501);
-            this.btn_exit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_exit.Location = new System.Drawing.Point(780, 617);
+            this.btn_exit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(91, 34);
+            this.btn_exit.Size = new System.Drawing.Size(121, 42);
             this.btn_exit.TabIndex = 8;
             this.btn_exit.Text = "Back";
             this.btn_exit.UseVisualStyleBackColor = true;
@@ -233,22 +205,17 @@
             // 
             this.combo_sup.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo_sup.FormattingEnabled = true;
-            this.combo_sup.Location = new System.Drawing.Point(306, 398);
-            this.combo_sup.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.combo_sup.Location = new System.Drawing.Point(408, 490);
+            this.combo_sup.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.combo_sup.Name = "combo_sup";
-<<<<<<< HEAD
-            this.combo_sup.Size = new System.Drawing.Size(164, 26);
-            this.combo_sup.TabIndex = 9;
-=======
-            this.combo_sup.Size = new System.Drawing.Size(218, 30);
+            this.combo_sup.Size = new System.Drawing.Size(289, 30);
             this.combo_sup.TabIndex = 5;
->>>>>>> c49de22100a29dc9f93468d7ceb72ecf1ca5c7b2
             // 
             // addProducts
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(704, 571);
+            this.ClientSize = new System.Drawing.Size(939, 703);
             this.Controls.Add(this.combo_sup);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_reset);
@@ -265,7 +232,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "addProducts";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add Products";

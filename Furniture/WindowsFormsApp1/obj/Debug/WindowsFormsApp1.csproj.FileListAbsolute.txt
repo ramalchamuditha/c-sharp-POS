@@ -163,3 +163,6 @@ C:\Users\Ramal\Desktop\GitHub - Project\vivaProject\Furniture\WindowsFormsApp1\o
 C:\Users\Ramal\Desktop\GitHub - Project\vivaProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\Ramal\Desktop\GitHub - Project\vivaProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Ramal\Desktop\GitHub - Project\vivaProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Ramal\Desktop\GitHub - Project\vivaProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.addSalesOrder.resources
+C:\Users\Ramal\Desktop\GitHub - Project\vivaProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SoInvoice.resources
+C:\Users\Ramal\Desktop\GitHub - Project\vivaProject\Furniture\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.addCustomer.resources

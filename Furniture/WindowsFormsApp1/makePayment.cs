@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
         {
             txt_payID.Text = "";
             txt_amount.Text = "";
-            txt_balance.Text = "";
+            txt_SalesOrderNo.Text = "";
             comboBox1.Text = "";
             
         }

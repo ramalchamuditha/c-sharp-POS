@@ -116,7 +116,7 @@
             // 
             this.txt_FurNo.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_FurNo.Location = new System.Drawing.Point(306, 65);
-            this.txt_FurNo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_FurNo.Margin = new System.Windows.Forms.Padding(2);
             this.txt_FurNo.Multiline = true;
             this.txt_FurNo.Name = "txt_FurNo";
             this.txt_FurNo.ReadOnly = true;
@@ -127,46 +127,31 @@
             // 
             this.txt_Desc.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Desc.Location = new System.Drawing.Point(306, 130);
-            this.txt_Desc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_Desc.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Desc.Multiline = true;
             this.txt_Desc.Name = "txt_Desc";
-<<<<<<< HEAD
             this.txt_Desc.Size = new System.Drawing.Size(164, 35);
             this.txt_Desc.TabIndex = 6;
-=======
-            this.txt_Desc.Size = new System.Drawing.Size(218, 42);
-            this.txt_Desc.TabIndex = 1;
->>>>>>> c49de22100a29dc9f93468d7ceb72ecf1ca5c7b2
             // 
             // txt_price
             // 
             this.txt_price.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_price.Location = new System.Drawing.Point(306, 196);
-            this.txt_price.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_price.Margin = new System.Windows.Forms.Padding(2);
             this.txt_price.Multiline = true;
             this.txt_price.Name = "txt_price";
-<<<<<<< HEAD
             this.txt_price.Size = new System.Drawing.Size(164, 35);
             this.txt_price.TabIndex = 6;
-=======
-            this.txt_price.Size = new System.Drawing.Size(218, 42);
-            this.txt_price.TabIndex = 2;
->>>>>>> c49de22100a29dc9f93468d7ceb72ecf1ca5c7b2
             // 
             // txt_qty
             // 
             this.txt_qty.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_qty.Location = new System.Drawing.Point(306, 327);
-            this.txt_qty.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_qty.Margin = new System.Windows.Forms.Padding(2);
             this.txt_qty.Multiline = true;
             this.txt_qty.Name = "txt_qty";
-<<<<<<< HEAD
             this.txt_qty.Size = new System.Drawing.Size(164, 35);
             this.txt_qty.TabIndex = 6;
-=======
-            this.txt_qty.Size = new System.Drawing.Size(218, 42);
-            this.txt_qty.TabIndex = 4;
->>>>>>> c49de22100a29dc9f93468d7ceb72ecf1ca5c7b2
             // 
             // combo_type
             // 
@@ -177,27 +162,19 @@
             "Tables",
             "Beds",
             "Wardrobe",
-<<<<<<< HEAD
             "Cupboard"});
             this.combo_type.Location = new System.Drawing.Point(306, 260);
-            this.combo_type.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.combo_type.Margin = new System.Windows.Forms.Padding(2);
             this.combo_type.Name = "combo_type";
             this.combo_type.Size = new System.Drawing.Size(164, 28);
             this.combo_type.TabIndex = 7;
-=======
-            "Cupboard",
-            "Other"});
-            this.combo_type.Location = new System.Drawing.Point(408, 320);
-            this.combo_type.Name = "combo_type";
-            this.combo_type.Size = new System.Drawing.Size(218, 34);
-            this.combo_type.TabIndex = 3;
->>>>>>> c49de22100a29dc9f93468d7ceb72ecf1ca5c7b2
+            this.combo_type.SelectedIndexChanged += new System.EventHandler(this.combo_type_SelectedIndexChanged);
             // 
             // btn_add
             // 
             this.btn_add.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_add.Location = new System.Drawing.Point(306, 501);
-            this.btn_add.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_add.Margin = new System.Windows.Forms.Padding(2);
             this.btn_add.Name = "btn_add";
             this.btn_add.Size = new System.Drawing.Size(91, 34);
             this.btn_add.TabIndex = 8;
@@ -209,7 +186,7 @@
             // 
             this.btn_reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_reset.Location = new System.Drawing.Point(446, 501);
-            this.btn_reset.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_reset.Margin = new System.Windows.Forms.Padding(2);
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(91, 34);
             this.btn_reset.TabIndex = 8;
@@ -221,7 +198,7 @@
             // 
             this.btn_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_exit.Location = new System.Drawing.Point(585, 501);
-            this.btn_exit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_exit.Margin = new System.Windows.Forms.Padding(2);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(91, 34);
             this.btn_exit.TabIndex = 8;
@@ -234,15 +211,10 @@
             this.combo_sup.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo_sup.FormattingEnabled = true;
             this.combo_sup.Location = new System.Drawing.Point(306, 398);
-            this.combo_sup.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.combo_sup.Margin = new System.Windows.Forms.Padding(2);
             this.combo_sup.Name = "combo_sup";
-<<<<<<< HEAD
             this.combo_sup.Size = new System.Drawing.Size(164, 26);
             this.combo_sup.TabIndex = 9;
-=======
-            this.combo_sup.Size = new System.Drawing.Size(218, 30);
-            this.combo_sup.TabIndex = 5;
->>>>>>> c49de22100a29dc9f93468d7ceb72ecf1ca5c7b2
             // 
             // addProducts
             // 
@@ -265,7 +237,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "addProducts";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add Products";

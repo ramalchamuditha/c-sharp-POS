@@ -13,7 +13,7 @@ namespace WindowsFormsApp1
 
         public sqlDBConnection()
         {
-            con = new SqlConnection(@"Data Source=DESKTOP-U2CIFPM;Initial Catalog=Products;Integrated Security=True");
+            con = new SqlConnection(@"Data Source=DESKTOP-79N0E5I\SQLEXPRESS;Initial Catalog=Products;Integrated Security=True");
             con.Open();
         }
 

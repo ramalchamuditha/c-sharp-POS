@@ -22,7 +22,67 @@ namespace WindowsFormsApp1
 
         private void btn_update_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+                if (String.IsNullOrEmpty(txt_Fname.Text) || String.IsNullOrEmpty(txt_Lname.Text))
+                    MessageBox.Show("Please Enter Name", "New Supplier", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                else if (txt_NIC.Text.Any(char.IsLetter))
+                    MessageBox.Show("Please check some characters are entered in NIC", "New Suppiler", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                else if (String.IsNullOrEmpty(txt_NIC.Text))
+                    MessageBox.Show("Please Enter NIC Number", "New Supplier", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                else if (String.IsNullOrEmpty(txt_add1.Text) || String.IsNullOrEmpty(txt_add2.Text) || String.IsNullOrEmpty(txt_add3.Text))
+                    MessageBox.Show("Please enter Address", "New Supplier", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                else if (String.IsNullOrEmpty(txt_tele.Text))
+                    MessageBox.Show("Please Enter Contact Number", "New Supplier", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                else if (txt_tele.Text.Any(char.IsLetter))
+                    MessageBox.Show("Please check some characters are entered in Contact Number", "New Supplier", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                else if (String.IsNullOrEmpty(txt_reg.Text))
+                    MessageBox.Show("Please Select Register Number", "New Supplier", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                else
+                {
+                    DialogResult dr = MessageBox.Show("Do you want to update?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                    if (dr.ToString() == "Yes")
+                    {
+                        con = new sqlDBConnection();
+                        con.SqlQuery("Update supplier set sup_Fname= @a ,sup_Lname= @b ,sup_NIC= @c ,sup_add1= @d ,sup_add2= @e,sup_add3= @f,sup_tele= @g,sup_regNo= @h where sup_No= @i");
+                        con.cmd.Parameters.AddWithValue("@i", txt_supNo.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@a", txt_Fname.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@b", txt_Lname.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@c", txt_NIC.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@d", txt_add1.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@e", txt_add2.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@f", txt_add3.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@g", txt_tele.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@h", txt_reg.Text.Trim());
+
+                        con.NonQueryEx();
+
+                        MessageBox.Show("Data Update Successfully", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        con = new sqlDBConnection();
+                        con.SqlQuery("select * from supplier");
+                        dataGridView1.DataSource = con.QueryEx();
+
+                    }
+                }
+
+            }
+            catch (SqlException)
+            {
+                MessageBox.Show("DataBase Error!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Error on update!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btn_clear_Click(object sender, EventArgs e)

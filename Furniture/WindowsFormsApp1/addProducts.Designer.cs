@@ -123,7 +123,7 @@
             this.txt_Desc.Multiline = true;
             this.txt_Desc.Name = "txt_Desc";
             this.txt_Desc.Size = new System.Drawing.Size(218, 42);
-            this.txt_Desc.TabIndex = 6;
+            this.txt_Desc.TabIndex = 1;
             // 
             // txt_price
             // 
@@ -132,7 +132,7 @@
             this.txt_price.Multiline = true;
             this.txt_price.Name = "txt_price";
             this.txt_price.Size = new System.Drawing.Size(218, 42);
-            this.txt_price.TabIndex = 6;
+            this.txt_price.TabIndex = 2;
             // 
             // txt_qty
             // 
@@ -141,7 +141,7 @@
             this.txt_qty.Multiline = true;
             this.txt_qty.Name = "txt_qty";
             this.txt_qty.Size = new System.Drawing.Size(218, 42);
-            this.txt_qty.TabIndex = 6;
+            this.txt_qty.TabIndex = 4;
             // 
             // combo_type
             // 
@@ -152,11 +152,12 @@
             "Tables",
             "Beds",
             "Wardrobe",
-            "Cupboard"});
+            "Cupboard",
+            "Other"});
             this.combo_type.Location = new System.Drawing.Point(408, 320);
             this.combo_type.Name = "combo_type";
             this.combo_type.Size = new System.Drawing.Size(218, 34);
-            this.combo_type.TabIndex = 7;
+            this.combo_type.TabIndex = 3;
             // 
             // btn_add
             // 
@@ -198,7 +199,7 @@
             this.combo_sup.Location = new System.Drawing.Point(408, 490);
             this.combo_sup.Name = "combo_sup";
             this.combo_sup.Size = new System.Drawing.Size(218, 30);
-            this.combo_sup.TabIndex = 9;
+            this.combo_sup.TabIndex = 5;
             // 
             // addProducts
             // 

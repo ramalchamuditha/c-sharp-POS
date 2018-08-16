@@ -31,27 +31,23 @@ namespace WindowsFormsApp1
             txt_qty.Text = "";
             combo_sup.Text = "";
             combo_type.Text = "";
+
+            con = new sqlDBConnection();
+            con.SqlQuery("Select isnull(max(cast(fur_No as int)),0 )+1 from furniture");
+
+            txt_FurNo.Text = con.QueryEx().Rows[0][0].ToString();
         }
 
         private void addProducts_Load(object sender, EventArgs e)
         {
+          con = new sqlDBConnection();
+           con.SqlQuery("Select isnull(max(cast(fur_No as int)),0 )+1 from furniture");
 
+            txt_FurNo.Text = con.QueryEx().Rows[0][0].ToString();
         }
           
         private void btn_add_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            con = new sqlDBConnection();
-            con.SqlQuery("INSERT INTO furniture(fur_No, Descr, price, type, qty, sup_No)VALUES (@a, @b,@c,@d,@e,@f)");
-            con.cmd.Parameters.AddWithValue("@a", txt_FurNo.Text.Trim());
-            con.cmd.Parameters.AddWithValue("@b", txt_Desc.Text.Trim());
-            con.cmd.Parameters.AddWithValue("@c", txt_price.Text.Trim());
-            con.cmd.Parameters.AddWithValue("@d", combo_type.Text.Trim());
-            con.cmd.Parameters.AddWithValue("@e", txt_qty.Text.Trim());
-            con.cmd.Parameters.AddWithValue("@f", txt_supNo.Text.Trim());
-            con.NonQueryEx();
-            MessageBox.Show("Product is Successfully updated");
-=======
             try
             {
                 if (String.IsNullOrEmpty(txt_Desc.Text))
@@ -89,8 +85,13 @@ namespace WindowsFormsApp1
                         con.cmd.Parameters.AddWithValue("@d", combo_type.Text.Trim());
                         con.cmd.Parameters.AddWithValue("@e", txt_qty.Text.Trim());
                         con.cmd.Parameters.AddWithValue("@f", combo_sup.Text.Trim());
-                        con.nonQueryEx();
+                        con.NonQueryEx();
                         MessageBox.Show("Data inserted Successfully", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        con = new sqlDBConnection();
+                        con.SqlQuery("Select isnull(max(cast(fur_No as int)),0 )+1 from furniture");
+
+                        txt_FurNo.Text = con.QueryEx().Rows[0][0].ToString();
                     }
                     else
                          txt_FurNo.Text = "";
@@ -108,7 +109,7 @@ namespace WindowsFormsApp1
                 MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
->>>>>>> b6a93117f68d131c6c2db6941b2dbf20af6d51cd
+
 
         }
     }

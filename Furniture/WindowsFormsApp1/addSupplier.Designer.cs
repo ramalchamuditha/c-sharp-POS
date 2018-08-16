@@ -133,9 +133,10 @@
             // 
             this.txt_supNo.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_supNo.Location = new System.Drawing.Point(182, 69);
-            this.txt_supNo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_supNo.Margin = new System.Windows.Forms.Padding(2);
             this.txt_supNo.Multiline = true;
             this.txt_supNo.Name = "txt_supNo";
+            this.txt_supNo.ReadOnly = true;
             this.txt_supNo.Size = new System.Drawing.Size(143, 31);
             this.txt_supNo.TabIndex = 7;
             // 
@@ -143,7 +144,7 @@
             // 
             this.txt_Fname.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Fname.Location = new System.Drawing.Point(182, 115);
-            this.txt_Fname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_Fname.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Fname.Multiline = true;
             this.txt_Fname.Name = "txt_Fname";
             this.txt_Fname.Size = new System.Drawing.Size(143, 31);
@@ -153,7 +154,7 @@
             // 
             this.txt_NIC.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_NIC.Location = new System.Drawing.Point(182, 166);
-            this.txt_NIC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_NIC.Margin = new System.Windows.Forms.Padding(2);
             this.txt_NIC.Multiline = true;
             this.txt_NIC.Name = "txt_NIC";
             this.txt_NIC.Size = new System.Drawing.Size(143, 31);
@@ -163,7 +164,7 @@
             // 
             this.txt_add1.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_add1.Location = new System.Drawing.Point(182, 213);
-            this.txt_add1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_add1.Margin = new System.Windows.Forms.Padding(2);
             this.txt_add1.Multiline = true;
             this.txt_add1.Name = "txt_add1";
             this.txt_add1.Size = new System.Drawing.Size(188, 31);
@@ -173,7 +174,7 @@
             // 
             this.txt_add2.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_add2.Location = new System.Drawing.Point(182, 251);
-            this.txt_add2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_add2.Margin = new System.Windows.Forms.Padding(2);
             this.txt_add2.Multiline = true;
             this.txt_add2.Name = "txt_add2";
             this.txt_add2.Size = new System.Drawing.Size(188, 31);
@@ -183,7 +184,7 @@
             // 
             this.txt_add3.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_add3.Location = new System.Drawing.Point(182, 289);
-            this.txt_add3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_add3.Margin = new System.Windows.Forms.Padding(2);
             this.txt_add3.Multiline = true;
             this.txt_add3.Name = "txt_add3";
             this.txt_add3.Size = new System.Drawing.Size(188, 31);
@@ -193,7 +194,7 @@
             // 
             this.txt_tele.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_tele.Location = new System.Drawing.Point(182, 355);
-            this.txt_tele.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_tele.Margin = new System.Windows.Forms.Padding(2);
             this.txt_tele.Multiline = true;
             this.txt_tele.Name = "txt_tele";
             this.txt_tele.Size = new System.Drawing.Size(143, 31);
@@ -203,7 +204,7 @@
             // 
             this.txt_reg.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg.Location = new System.Drawing.Point(182, 415);
-            this.txt_reg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_reg.Margin = new System.Windows.Forms.Padding(2);
             this.txt_reg.Multiline = true;
             this.txt_reg.Name = "txt_reg";
             this.txt_reg.Size = new System.Drawing.Size(143, 31);
@@ -213,7 +214,7 @@
             // 
             this.txt_Lname.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Lname.Location = new System.Drawing.Point(472, 115);
-            this.txt_Lname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_Lname.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Lname.Multiline = true;
             this.txt_Lname.Name = "txt_Lname";
             this.txt_Lname.Size = new System.Drawing.Size(143, 31);
@@ -224,7 +225,7 @@
             // 
             this.btn_insert.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_insert.Location = new System.Drawing.Point(251, 482);
-            this.btn_insert.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_insert.Margin = new System.Windows.Forms.Padding(2);
             this.btn_insert.Name = "btn_insert";
             this.btn_insert.Size = new System.Drawing.Size(91, 34);
             this.btn_insert.TabIndex = 16;
@@ -236,7 +237,7 @@
             // 
             this.btn_clear.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_clear.Location = new System.Drawing.Point(367, 482);
-            this.btn_clear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_clear.Margin = new System.Windows.Forms.Padding(2);
             this.btn_clear.Name = "btn_clear";
             this.btn_clear.Size = new System.Drawing.Size(91, 34);
             this.btn_clear.TabIndex = 16;
@@ -248,7 +249,7 @@
             // 
             this.btn_back.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_back.Location = new System.Drawing.Point(482, 482);
-            this.btn_back.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_back.Margin = new System.Windows.Forms.Padding(2);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(91, 34);
             this.btn_back.TabIndex = 16;
@@ -281,7 +282,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "addSupplier";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add Supplier";

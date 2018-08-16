@@ -24,7 +24,18 @@ namespace WindowsFormsApp1
 
         private void btn_salesReport_Click(object sender, EventArgs e)
         {
-            
+            DialogResult dialog = MessageBox.Show("Do you wants to add sales order from new customer ?", "Add sales Order", MessageBoxButtons.YesNo);
+            if(dialog == DialogResult.Yes)
+            {
+                addCustomer adc = new addCustomer();
+                adc.Show();
+            }
+            else if(dialog == DialogResult.No)
+            {
+                addSalesOrder aso = new addSalesOrder();
+                aso.Show();
+            }
+                        
         }
 
         private void btn_stockStatues_Click(object sender, EventArgs e)
@@ -34,8 +45,8 @@ namespace WindowsFormsApp1
 
         private void btn_purchaseOrder_Click(object sender, EventArgs e)
         {
-            makePayment mkp = new makePayment();
-            mkp.Show();
+            SoInvoice aso = new SoInvoice();
+            aso.Show();
         }
     }
 }

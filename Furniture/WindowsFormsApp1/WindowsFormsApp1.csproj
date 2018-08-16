@@ -45,17 +45,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addCustomer.Designer.cs">
+      <DependentUpon>addCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="addProducts.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="addProducts.Designer.cs">
       <DependentUpon>addProducts.cs</DependentUpon>
     </Compile>
+    <Compile Include="addSalesOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addSalesOrder.Designer.cs">
+      <DependentUpon>addSalesOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="addSupplier.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="addSupplier.Designer.cs">
       <DependentUpon>addSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoInvoice.Designer.cs">
+      <DependentUpon>SoInvoice.cs</DependentUpon>
     </Compile>
     <Compile Include="ProductsDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -148,8 +166,14 @@
     <Compile Include="updateSupplier.Designer.cs">
       <DependentUpon>updateSupplier.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="addCustomer.resx">
+      <DependentUpon>addCustomer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="addProducts.resx">
       <DependentUpon>addProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addSalesOrder.resx">
+      <DependentUpon>addSalesOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="addSupplier.resx">
       <DependentUpon>addSupplier.cs</DependentUpon>
@@ -168,6 +192,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="makePayment.resx">
       <DependentUpon>makePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoInvoice.resx">
+      <DependentUpon>SoInvoice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="payment.resx">
       <DependentUpon>payment.cs</DependentUpon>

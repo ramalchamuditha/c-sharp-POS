@@ -10,31 +10,23 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class makePayment : Form
+    public partial class addSalesOrder : Form
     {
-        public makePayment()
+        public addSalesOrder()
         {
             InitializeComponent();
         }
 
-        private void makePayment_Load(object sender, EventArgs e)
+        private void addSalesOrder_Load(object sender, EventArgs e)
         {
             label2.Text = DateTime.Now.ToLongDateString();
             label6.Text = DateTime.Now.ToLongTimeString();
         }
 
-        private void btn_reset_Click(object sender, EventArgs e)
+        private void btn_payment_Click(object sender, EventArgs e)
         {
-            txt_payID.Text = "";
-            txt_amount.Text = "";
-            txt_SalesOrderNo.Text = "";
-            comboBox1.Text = "";
-            
-        }
-
-        private void btn_exit_Click(object sender, EventArgs e)
-        {
-            this.Hide();
+            SoInvoice soi = new SoInvoice();
+            soi.Show();
         }
     }
 }

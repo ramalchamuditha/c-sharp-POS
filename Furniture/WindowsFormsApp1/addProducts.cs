@@ -33,7 +33,7 @@ namespace WindowsFormsApp1
             combo_type.Text = "";
 
             con = new sqlDBConnection();
-            con.SqlQuery("Select isnull(max(cast(fur_No as int)),0 )+1 from furniture");
+            con.SqlQuery("Select isnull(max,0 )+1 from furniture");
 
             txt_FurNo.Text = con.QueryEx().Rows[0][0].ToString();
         }

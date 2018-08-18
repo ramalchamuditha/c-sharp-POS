@@ -17,6 +17,7 @@ namespace WindowsFormsApp1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
+<<<<<<< HEAD
 
 
             
@@ -24,12 +25,12 @@ namespace WindowsFormsApp1
             
 
             Application.Run(new LoginPage());
+=======
+            Application.Run(new SoInvoice());
+>>>>>>> 7d286ba86ac4d0aeab481c24aeaff2bf6ee7b49f
             
-
-
+        
            
-
-
         }
     }
 }

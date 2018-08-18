@@ -18,7 +18,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        new sqlDBConnection con;
+        sqlDBConnection con;
 
         private void btn_update_Click(object sender, EventArgs e)
         {

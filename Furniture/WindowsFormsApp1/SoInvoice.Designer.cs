@@ -161,6 +161,7 @@
             this.btn_search.TabIndex = 21;
             this.btn_search.Text = "Get Details";
             this.btn_search.UseVisualStyleBackColor = true;
+            this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
             // 
             // combo_SONo
             // 
@@ -183,7 +184,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(45, 328);
+            this.dataGridView1.Location = new System.Drawing.Point(36, 337);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(952, 354);

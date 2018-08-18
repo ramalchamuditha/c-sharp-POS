@@ -87,17 +87,15 @@ namespace WindowsFormsApp1
                         con.cmd.Parameters.AddWithValue("@f", combo_sup.Text.Trim());
                         con.NonQueryEx();
 
-                        MessageBox.Show("Data inserted Successfully", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Data Added Successfully", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                         con = new sqlDBConnection();
                         con.SqlQuery("Select isnull(max(cast(fur_No as int)),0 )+1 from furniture");
 
                         txt_FurNo.Text = con.QueryEx().Rows[0][0].ToString();
 
+                            
                        
-                            MessageBox.Show("Data Added Successfully", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        
-
                     }
                     else
                          txt_FurNo.Text = "";

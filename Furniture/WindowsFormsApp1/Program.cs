@@ -16,29 +16,11 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
-      
+
+            Application.Run(new SoInvoice());
+            
+        
            
-=======
-
-
-
-            
-
-            
->>>>>>> 7180ccbefc95a697ae24498aa5a8635b71347798
-
-            Application.Run(new addSalesOrder());
-            
-
-
-<<<<<<< HEAD
-            Application.Run(new HomePage());
-=======
-           
->>>>>>> 7180ccbefc95a697ae24498aa5a8635b71347798
-
-
         }
     }
 }

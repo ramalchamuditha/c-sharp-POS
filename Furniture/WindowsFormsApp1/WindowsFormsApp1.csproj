@@ -69,6 +69,16 @@
     <Compile Include="addSupplier.Designer.cs">
       <DependentUpon>addSupplier.cs</DependentUpon>
     </Compile>
+    <Compile Include="cus_NO_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cus_NO_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProductsDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductsDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="SoInvoice.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -230,6 +240,17 @@
       <DependentUpon>updateSupplier.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
+    <None Include="cus_NO_DataSet.xsc">
+      <DependentUpon>cus_NO_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="cus_NO_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>cus_NO_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="cus_NO_DataSet.xss">
+      <DependentUpon>cus_NO_DataSet.xsd</DependentUpon>
+    </None>
     <None Include="ProductsDataSet.xsc">
       <DependentUpon>ProductsDataSet.xsd</DependentUpon>
     </None>
@@ -251,6 +272,17 @@
     </None>
     <None Include="ProductsDataSet1.xss">
       <DependentUpon>ProductsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ProductsDataSet2.xsc">
+      <DependentUpon>ProductsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ProductsDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProductsDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProductsDataSet2.xss">
+      <DependentUpon>ProductsDataSet2.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

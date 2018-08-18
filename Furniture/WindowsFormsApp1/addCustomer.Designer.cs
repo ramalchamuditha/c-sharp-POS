@@ -199,6 +199,7 @@
             this.btn_back.TabIndex = 30;
             this.btn_back.Text = "Back";
             this.btn_back.UseVisualStyleBackColor = true;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // btn_clear
             // 
@@ -210,6 +211,7 @@
             this.btn_clear.TabIndex = 31;
             this.btn_clear.Text = "Clear";
             this.btn_clear.UseVisualStyleBackColor = true;
+            this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
             // 
             // btn_insert
             // 
@@ -249,6 +251,7 @@
             this.Name = "addCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add Customer";
+            this.Load += new System.EventHandler(this.addCustomer_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

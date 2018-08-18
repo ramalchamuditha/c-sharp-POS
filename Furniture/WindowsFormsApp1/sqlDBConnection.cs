@@ -10,7 +10,7 @@ namespace WindowsFormsApp1
         public SqlCommand cmd;
         private SqlDataAdapter da;
         private DataTable dt;
-
+        
         public sqlDBConnection()
         {
             con = new SqlConnection(@"Data Source=DESKTOP-U2CIFPM;Initial Catalog=Products;Integrated Security=True");

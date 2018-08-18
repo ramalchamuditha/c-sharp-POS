@@ -23,7 +23,7 @@ namespace WindowsFormsApp1
 
             
 
-            Application.Run(new addSalesOrder());
+            Application.Run(new LoginPage());
             
 
 

@@ -12,13 +12,14 @@ namespace WindowsFormsApp1
 {
     public partial class HomePage : Form
     {
-        public HomePage()
+        string manager;
+        public HomePage(String m)
         {
             InitializeComponent();
-            
+            manager = m;
            
         }
-        
+       
         private void button3_Click(object sender, EventArgs e)
         {
 
@@ -43,6 +44,11 @@ namespace WindowsFormsApp1
             Movingpanel.Height = btn_Home.Height;
             Movingpanel.Top = btn_Home.Top;
             home1.BringToFront();
+
+            if (manager == "Manager")
+                btn_Supplier.Enabled = true;
+            else
+                btn_Supplier.Enabled = false; 
 
         }
 

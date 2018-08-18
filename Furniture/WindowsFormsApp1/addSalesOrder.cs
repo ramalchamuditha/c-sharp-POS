@@ -58,25 +58,41 @@ namespace WindowsFormsApp1
                 else if (txt_price.Text.Any(char.IsLetter))
                     MessageBox.Show("Please check some characters are entered in rice", "New Sales Order", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
 
+                else
+                {
+                    DialogResult dr = MessageBox.Show("Do you want to update?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                    if (dr.ToString() == "Yes")
+                    {
+                        con = new sqlDBConnection();
+
+                        con.SqlQuery("INSERT INTO salesOrder(S_order_no, fur_no, qty, price)VALUES (@a,@b,@c,@d)");
+                        con.cmd.Parameters.AddWithValue("@a", txt_s_o_No.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@b", combo_fur_No.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@c", txt_qty.Text.Trim());
+                        con.cmd.Parameters.AddWithValue("@d", txt_price.Text.Trim());
+                        con.NonQueryEx();
+
+
+                        MessageBox.Show(" is Successfully updated");
+
+                    }
+
+                }
+
+
+            }
+            catch (SqlException)
+            {
+                MessageBox.Show("DataBase Error!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Error on update!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-                /*  con = new sqlDBConnection();
-                  con.SqlQuery("INSERT INTO salesOrderHeader(S_order_no, cus_No )VALUES (@a,@b)");
-                  con.cmd.Parameters.AddWithValue("@a", txt_s_o_No.Text.Trim());
-                  con.cmd.Parameters.AddWithValue("@b", combo_cus_No.Text.Trim());
-                  con.cmd.Parameters.AddWithValue("@c", label2.Text.Trim());
-
-                  con.SqlQuery("INSERT INTO salesOrderDetail(S_order_no, fur_no, qty,price)VALUES (@a,@x,@y,@z)");
-                  con.cmd.Parameters.AddWithValue("@a", txt_s_o_No.Text.Trim());
-                  con.cmd.Parameters.AddWithValue("@x", combo_fur_No.Text.Trim());
-                  con.cmd.Parameters.AddWithValue("@y", txt_qty.Text.Trim());
-                  con.cmd.Parameters.AddWithValue("@z", txt_price.Text.Trim());
-                  con.NonQueryEx();
 
 
-                  MessageBox.Show(" is Successfully updated"); */
-
-            }
+        }
 
         private void txt_s_o_No_TextChanged(object sender, EventArgs e)
         {

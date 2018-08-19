@@ -13,7 +13,7 @@ namespace WindowsFormsApp1
 {
     public partial class LoginPage : Form
     {
-        
+       
         public LoginPage()
         {
             InitializeComponent();
@@ -44,9 +44,10 @@ namespace WindowsFormsApp1
 
                     if (dt.Rows[0][0].ToString() == "1")
                     {
-                        HomePage hp = new HomePage(m: textBox1.Text);
+                        
+                        HomePage hp = new HomePage(textBox1.Text);
                         hp.Show();
-                        this.Hide();
+                        this.Hide();   
                     }
                     else
                     {

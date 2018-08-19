@@ -12,11 +12,13 @@ namespace WindowsFormsApp1
 {
     public partial class HomePage : Form
     {
-        string manager;
-        public HomePage(String m)
+
+        string man;
+        public HomePage(string m)
         {
             InitializeComponent();
-            manager = m;
+
+            man = m;
            
         }
        
@@ -27,9 +29,11 @@ namespace WindowsFormsApp1
 
         private void btn_Supplier_Click(object sender, EventArgs e)
         {
+           
             Movingpanel.Height = btn_Supplier.Height;
             Movingpanel.Top = btn_Supplier.Top;
             supplier1.BringToFront();
+            
         }
 
         private void btn_Home_Click(object sender, EventArgs e)
@@ -41,6 +45,15 @@ namespace WindowsFormsApp1
 
         private void HomePage_Load(object sender, EventArgs e)
         {
+            if(man == "Manager")
+            {
+                btn_Supplier.Enabled = true;
+            }
+            else
+            {
+                btn_Supplier.Enabled = false;
+            }
+
             Movingpanel.Height = btn_Home.Height;
             Movingpanel.Top = btn_Home.Top;
             home1.BringToFront();
@@ -83,6 +96,11 @@ namespace WindowsFormsApp1
         {
             Movingpanel.Height = btn_logout.Height;
             Movingpanel.Top = btn_logout.Top;
+
+            LoginPage lp = new LoginPage();
+            lp.Show();
+            this.Hide();
+
 
         }
     }

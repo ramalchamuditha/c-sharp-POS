@@ -74,6 +74,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>cus_NO_DataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="parameter.cs" />
     <Compile Include="ProductsDataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

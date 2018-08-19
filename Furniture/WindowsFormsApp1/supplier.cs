@@ -10,30 +10,28 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
+
+    
     public partial class supplier : UserControl
         
     {
+
+        
         public supplier()
         {
             InitializeComponent();
+            
         }
-        string manager;
+
+
         private void supplier_Load(object sender, EventArgs e)
         {
-
+         
+           
         }
 
         private void btn_addSupplier_Click(object sender, EventArgs e)
         {
-            if (manager == "Manager")
-            {
-                btn_addSupplier.Enabled = true;
-                addSupplier ads = new addSupplier();
-                ads.Show();
-            }
-                
-            else
-                btn_addSupplier.Enabled = false;
 
             
         }

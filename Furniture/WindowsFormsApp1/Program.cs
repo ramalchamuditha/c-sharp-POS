@@ -20,7 +20,7 @@ namespace WindowsFormsApp1
 
             
 
-            Application.Run(new SoInvoice());
+            Application.Run(new LoginPage());
 
                      
         

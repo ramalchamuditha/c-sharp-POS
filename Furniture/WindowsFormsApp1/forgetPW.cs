@@ -20,7 +20,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
             uname = un;
         }
-        new sqlDBConnection con;
+         sqlDBConnection con;
 
         private void btn_clear_Click(object sender, EventArgs e)
         {

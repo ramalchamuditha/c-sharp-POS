@@ -127,30 +127,16 @@ namespace WindowsFormsApp1
                     DialogResult dr = MessageBox.Show("Do you want to update?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                     if (dr.ToString() == "Yes")
                     {
-<<<<<<< HEAD
+
                         con = new sqlDBConnection();
 
-                        con.SqlQuery("INSERT INTO salesOrder(S_order_no, fur_no, qty, price)VALUES (@a,@b,@c,@d)");
-=======
-                            con = new sqlDBConnection();
-
+                        
                         con.SqlQuery("INSERT INTO salesOrder(S_order_No, fur_no, qty, price, cus_no, date_Time,aval )VALUES (@a,@b,@c,@d,@e,@f,@g)");
->>>>>>> 7d286ba86ac4d0aeab481c24aeaff2bf6ee7b49f
+
                         con.cmd.Parameters.AddWithValue("@a", txt_s_o_No.Text.Trim());
                         con.cmd.Parameters.AddWithValue("@b", combo_fur_No.Text.Trim());
                         con.cmd.Parameters.AddWithValue("@c", txt_qty.Text.Trim());
                         con.cmd.Parameters.AddWithValue("@d", txt_price.Text.Trim());
-<<<<<<< HEAD
-                        con.NonQueryEx();
-
-
-                        MessageBox.Show(" is Successfully updated");
-
-                    }
-
-                }
-
-=======
                         con.cmd.Parameters.AddWithValue("@e", combo_cus_No.Text.Trim());
                         con.cmd.Parameters.AddWithValue("@f", label2.Text.Trim());
                         con.cmd.Parameters.AddWithValue("@g", "yes");
@@ -166,7 +152,7 @@ namespace WindowsFormsApp1
                     }
 
                 }
->>>>>>> 7d286ba86ac4d0aeab481c24aeaff2bf6ee7b49f
+
 
                 
             }
@@ -178,22 +164,14 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("Error on update!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-<<<<<<< HEAD
-            catch (SqlException)
-            {
-                MessageBox.Show("DataBase Error!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Error on update!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-=======
+
+            
             txt_s_o_No.Text = "";
             combo_cus_No = null;
             combo_fur_No.Text = null;
             txt_qty.Text = "";
             txt_price.Text = "";
->>>>>>> 7d286ba86ac4d0aeab481c24aeaff2bf6ee7b49f
+
 
 
 

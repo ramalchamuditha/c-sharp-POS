@@ -45,11 +45,7 @@ namespace WindowsFormsApp1
             Movingpanel.Top = btn_Home.Top;
             home1.BringToFront();
 
-            if (manager == "Manager")
-                btn_Supplier.Enabled = true;
-            else
-                btn_Supplier.Enabled = false; 
-
+            
         }
 
         private void products1_Load(object sender, EventArgs e)
@@ -80,6 +76,13 @@ namespace WindowsFormsApp1
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
+
+        }
+
+        private void btn_logout_Click(object sender, EventArgs e)
+        {
+            Movingpanel.Height = btn_logout.Height;
+            Movingpanel.Top = btn_logout.Top;
 
         }
     }
